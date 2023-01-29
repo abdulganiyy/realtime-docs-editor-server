@@ -13,7 +13,7 @@ mongoose
 
 const io = require("socket.io")(3001, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://nimble-fudge-2ae73c.netlify.app",
     methods: ["GET", "POST"],
   },
 });
